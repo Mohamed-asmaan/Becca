@@ -181,11 +181,11 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
         {/* Video — absolute inset-0, no layout impact; scale animation is transform-only */}
         <div
           ref={videoWrapRef}
-          className="hero-video-container absolute inset-0 w-full h-full overflow-hidden bg-black origin-center"
+          className="hero-video-container absolute inset-0 overflow-hidden bg-black origin-center"
           style={{ scale: 0.001 }}
           aria-hidden="true"
         >
-          <div className="absolute inset-0 w-full h-full">
+          <div className="absolute inset-0 w-[100vw] min-w-[100vw] h-[100dvh] min-h-[100dvh]">
             <video
             ref={videoRef}
             autoPlay
@@ -193,7 +193,7 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
             loop
             playsInline
             preload="auto"
-            className="absolute inset-0 w-full h-full object-cover min-w-full min-h-full z-[2]"
+            className="absolute inset-0 w-[100vw] min-w-[100dvw] h-[100dvh] min-h-[100dvh] object-cover z-[2]"
             onLoadedData={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}
             onCanPlay={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}
           >
