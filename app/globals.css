@@ -5,6 +5,7 @@
    Aligned with brand tokens
    ========================================================================== */
 
+/* Custom font disabled — add ruder_plakat_llregular.woff2 to public/fonts/ and uncomment:
 @font-face {
   font-family: ruder_plakat_llregular;
   font-weight: 400;
@@ -12,6 +13,7 @@
   src: url("/fonts/ruder_plakat_llregular.woff2") format("woff2");
   font-display: swap;
 }
+*/
 
 :root {
   /* Becca brand colors */
@@ -151,9 +153,9 @@ select[data-variant="responsive"] option {
   /* --------------------------------------------------------------------------
      Typography — font families
      -------------------------------------------------------------------------- */
-  --font-becca: ruder_plakat_llregular, verdana, ui-sans-serif, system-ui, sans-serif;
-  --font-display: ruder_plakat_llregular, verdana, ui-sans-serif, system-ui, sans-serif;
-  --font-body: ruder_plakat_llregular, verdana, ui-sans-serif, system-ui, sans-serif;
+  --font-becca: verdana, ui-sans-serif, system-ui, sans-serif;
+  --font-display: verdana, ui-sans-serif, system-ui, sans-serif;
+  --font-body: verdana, ui-sans-serif, system-ui, sans-serif;
 
   /* --------------------------------------------------------------------------
      Font sizes — text-* utilities

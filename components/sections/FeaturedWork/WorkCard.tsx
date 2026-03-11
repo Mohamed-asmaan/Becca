@@ -20,7 +20,7 @@ function WorkCard({ title, client, image, href }: WorkCardProps) {
         {image ? (
           <Image
             src={image}
-            alt={title}
+            alt=""
             fill
             className="object-cover group-hover:scale-[var(--image-zoom)] transition-transform duration-500"
             sizes="(max-width: 640px) 100vw, 33vw"

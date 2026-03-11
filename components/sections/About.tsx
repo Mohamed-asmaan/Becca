@@ -1,11 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui";
 import { getAboutImages } from "@/lib/data";
 
 const LAYOUT = [0, 7, 1, 4, 6, 5, 3, 2] as const;
 const HEIGHTS = [220, 180, 260, 200, 240, 200, 240, 220] as const;
+/** LCP image (RC_DSC_9376_1-1-scaled.jpg) is at layout index 2 */
+const LCP_LAYOUT_INDEX = 2;
 
 export default function About() {
   const images = getAboutImages();
@@ -43,17 +46,17 @@ export default function About() {
               className="break-inside-avoid mb-4 sm:mb-6 w-full overflow-hidden rounded-sm"
             >
               <div
-                className={`w-full overflow-hidden ${grayscale ? "grayscale" : ""}`}
+                className={`w-full overflow-hidden relative ${grayscale ? "grayscale" : ""}`}
                 style={{ aspectRatio: `220 / ${h}` }}
               >
-                <img
+                <Image
                   src={src}
                   alt={alt}
-                  width={220}
-                  height={h}
-                  className="w-full h-full object-cover object-center"
+                  fill
+                  className="object-cover object-center"
                   loading={idx < 4 ? "eager" : "lazy"}
-                  decoding="async"
+                  fetchPriority={idx === LCP_LAYOUT_INDEX ? "high" : undefined}
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 />
               </div>
             </div>

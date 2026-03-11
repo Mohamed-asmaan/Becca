@@ -66,7 +66,7 @@ export default function Header() {
           className="absolute inset-0 bg-bg/80 backdrop-blur-sm"
           onClick={() => setIsOpen(false)}
         />
-        <aside
+        <div
           role="dialog"
           aria-modal="true"
           aria-label="Main navigation"
@@ -99,7 +99,7 @@ export default function Header() {
               </div>
             </nav>
           </div>
-        </aside>
+        </div>
         <button
           type="button"
           onClick={() => setIsOpen(false)}
