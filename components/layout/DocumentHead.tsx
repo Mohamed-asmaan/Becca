@@ -1,15 +1,10 @@
 /**
- * Document head links — preconnect, dns-prefetch
- * Optimizes LCP by preconnecting to image/video origin
+ * Document head — preconnect to LCP origin only.
+ * Single preconnect to image/video host; dns-prefetch removed (redundant).
  */
 
-const PRELOAD_ORIGIN = "https://www.hellobecca.com";
+const LCP_ORIGIN = "https://www.hellobecca.com";
 
 export default function DocumentHead() {
-  return (
-    <>
-      <link rel="preconnect" href={PRELOAD_ORIGIN} crossOrigin="anonymous" />
-      <link rel="dns-prefetch" href={PRELOAD_ORIGIN} />
-    </>
-  );
+  return <link rel="preconnect" href={LCP_ORIGIN} crossOrigin="anonymous" />;
 }

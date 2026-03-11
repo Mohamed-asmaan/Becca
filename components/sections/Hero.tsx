@@ -31,7 +31,22 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
     return () => document.documentElement.classList.remove("hero-entrance-lock");
   }, []);
 
+  const cleanupRef = useRef<(() => void) | null>(null);
+
   useEffect(() => {
+    // Defer until layout is stable to prevent CLS from animations during paint
+    const rafId = requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        cleanupRef.current = runAnimations() ?? null;
+      });
+    });
+    return () => {
+      cancelAnimationFrame(rafId);
+      cleanupRef.current?.();
+    };
+  }, []);
+
+  function runAnimations() {
     const section = sectionRef.current;
     const videoWrap = videoWrapRef.current;
     const overlay = overlayRef.current;
@@ -62,7 +77,10 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
 
     const setupScrollTimeline = () => {
       window.scrollTo(0, 0);
-      ScrollTrigger.refresh();
+      // Defer ScrollTrigger.refresh to avoid forced reflow; batch after layout
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => ScrollTrigger.refresh());
+      });
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: section,
@@ -82,7 +100,8 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
       if (headerEl) {
         tl.to(headerEl, { yPercent: -100, duration: 0.5, ease: "power2.inOut", overwrite: "auto" }, 0);
       }
-      tl.fromTo(videoWrap, { width: "1px", height: "1px" }, { width: "100vw", height: "100dvh", duration: 0.5, ease: "power2.inOut" }, 0);
+      // Use scale (transform) instead of width/height to avoid layout reflow
+      tl.fromTo(videoWrap, { scale: 0.001 }, { scale: 1, duration: 0.5, ease: "power2.inOut" }, 0);
       tl.to(overlay, { opacity: 0, duration: 0.4, ease: "power2.out" }, 0.1);
       tl.to(hospitality, { yPercent: -120, opacity: 0, duration: 0.45, ease: "power2.in", overwrite: "auto" }, 0);
       tl.to(reimagined, { yPercent: 120, opacity: 0, duration: 0.45, ease: "power2.in", overwrite: "auto" }, 0);
@@ -146,42 +165,34 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
       delete document.documentElement.dataset.heroVideoFull;
       if (headerEl) gsap.set(headerEl, { clearProps: "transform,pointerEvents" });
     };
-  }, []);
+  }
 
   return (
     <section
+      id="home-page-section-c"
       ref={sectionRef}
-      className={
-        entrance
-          ? "fixed inset-0 z-[9999] flex flex-col justify-center overflow-hidden bg-bg"
-          : "relative min-h-[100dvh] bg-bg"
-      }
+      className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-bg z-[5]"
       aria-labelledby="hero-heading"
     >
       <div
         ref={stickyRef}
-        className={
-          entrance
-            ? "z-20 min-h-[100dvh] flex flex-col justify-center overflow-hidden"
-            : "sticky top-0 z-20 min-h-[100dvh] flex flex-col justify-center overflow-hidden"
-        }
+        className="relative z-20 min-h-[100dvh] min-h-[100vh] flex flex-col justify-center overflow-hidden"
       >
-        {/* Video — full viewport, grows from center; outside Container so not clipped */}
+        {/* Video — absolute inset-0, no layout impact; scale animation is transform-only */}
         <div
           ref={videoWrapRef}
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 origin-center overflow-hidden bg-black"
-          style={{ width: "1px", height: "1px" }}
+          className="hero-video-container absolute inset-0 w-full h-full overflow-hidden bg-black origin-center"
+          style={{ scale: 0.001 }}
           aria-hidden="true"
         >
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vw] h-[100dvh] min-w-[100vw] min-h-[100dvh]">
+          <div className="absolute inset-0 w-full h-full">
             <video
             ref={videoRef}
             autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
-            poster="https://www.hellobecca.com/wp-content/uploads/1-2.jpg"
+            preload="auto"
             className="absolute inset-0 w-full h-full object-cover min-w-full min-h-full z-[2]"
             onLoadedData={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}
             onCanPlay={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}

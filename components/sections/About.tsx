@@ -16,8 +16,8 @@ export default function About() {
       : images.map((img, idx) => ({ src: img.src, alt: img.alt, grayscale: img.grayscale, h: HEIGHTS[idx % HEIGHTS.length] }));
   return (
     <section
-      id="home-page-section-c"
-      className="group/home-page-section-c relative z-[5] bg-bg overflow-hidden py-16 sm:py-24 md:py-28"
+      id="home-about-section"
+      className="group/home-page-section-c relative z-[5] bg-bg overflow-hidden py-16 sm:py-24 md:py-28 [contain:layout]"
     >
       <Container>
         <div className="text-center mb-10 sm:mb-14 md:mb-16">
@@ -37,7 +37,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 sm:gap-6 [column-fill:auto] min-h-[28rem]">
+        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 sm:gap-6 [column-fill:balance]">
           {IMAGES.map(({ src, alt, grayscale, h }, idx) => (
             <div
               key={idx}
@@ -52,7 +52,8 @@ export default function About() {
                   alt={alt}
                   fill
                   className="object-cover object-center"
-                  loading={idx < 4 ? "eager" : "lazy"}
+                  priority={idx === LCP_LAYOUT_INDEX}
+                  loading={idx === LCP_LAYOUT_INDEX ? "eager" : idx < 4 ? "eager" : "lazy"}
                   fetchPriority={idx === LCP_LAYOUT_INDEX ? "high" : undefined}
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 392px"
                   quality={70}
