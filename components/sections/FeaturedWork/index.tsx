@@ -13,7 +13,7 @@ export default function FeaturedWork({ projects }: FeaturedWorkProps) {
   if (!projects?.length) return null;
   return (
     <section
-      className="relative bg-accent py-16 sm:py-24 md:py-32 lg:py-36 text-foreground-inverse"
+      className="relative bg-accent py-16 sm:py-24 md:py-32 lg:py-36 text-foreground-inverse min-h-[24rem]"
       aria-labelledby="featured-work-heading"
     >
       <Container>

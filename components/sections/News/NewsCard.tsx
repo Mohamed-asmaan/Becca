@@ -34,6 +34,7 @@ function NewsCard({
             fill
             className="object-cover group-hover:scale-[var(--image-zoom)] transition-transform duration-500"
             sizes={featured ? "(max-width: 640px) 100vw, 50vw" : "(max-width: 640px) 100vw, 25vw"}
+            quality={70}
           />
         ) : (
           <div className="w-full h-full bg-foreground-inverse/10" />

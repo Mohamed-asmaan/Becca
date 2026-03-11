@@ -15,7 +15,14 @@ function ServiceCard({ title, image, href, showLine = true }: ServiceCardProps) 
       <div className="flex flex-col sm:flex-row sm:items-start gap-6 sm:gap-12 lg:gap-16 pb-8 sm:pb-16 md:pb-20">
         <div className="w-full sm:w-[48%] aspect-[345/215] sm:aspect-[1099/688] overflow-hidden shrink-0 relative">
           {image ? (
-            <Image src={image} alt={title} fill className="object-cover" sizes="(max-width: 640px) 100vw, 48vw" />
+            <Image
+            src={image}
+            alt={title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, 48vw"
+            quality={70}
+          />
           ) : (
             <div className="w-full h-full bg-foreground-inverse/10" />
           )}

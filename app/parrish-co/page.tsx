@@ -47,6 +47,7 @@ export default function ParrishCoPage() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 640px) 216px, 512px"
+                quality={70}
               />
             </div>
           ))}
@@ -130,7 +131,8 @@ export default function ParrishCoPage() {
                     alt=""
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-[var(--image-zoom)]"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 392px"
+                    quality={70}
                   />
                 </div>
                 <div className="flex items-center justify-between mt-4 sm:mt-5 gap-4">

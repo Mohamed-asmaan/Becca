@@ -60,6 +60,7 @@ export default function NewsPage() {
                       priority={i === 0}
                       loading={i === 0 ? "eager" : "lazy"}
                       fetchPriority={i === 0 ? "high" : undefined}
+                      quality={70}
                     />
                   </div>
                 </div>
@@ -153,6 +154,7 @@ export default function NewsPage() {
                         className="object-cover object-center transition-transform duration-500 group-hover/card:scale-[1.05]"
                         sizes="(max-width: 700px) 100vw, 300px"
                         loading="lazy"
+                        quality={70}
                       />
                     </div>
                   </div>
@@ -174,6 +176,7 @@ export default function NewsPage() {
                       className="object-cover object-center transition-transform duration-500 group-hover/card:scale-[1.05]"
                       sizes="100vw"
                       loading="lazy"
+                      quality={70}
                     />
                   </div>
                   <div className="info-wrapper [&_*]:text-white">

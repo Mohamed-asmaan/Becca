@@ -180,7 +180,8 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
             muted
             loop
             playsInline
-            preload="auto"
+            preload="metadata"
+            poster="https://www.hellobecca.com/wp-content/uploads/1-2.jpg"
             className="absolute inset-0 w-full h-full object-cover min-w-full min-h-full z-[2]"
             onLoadedData={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}
             onCanPlay={(e) => (e.target as HTMLVideoElement).play().catch(() => {})}

@@ -56,6 +56,7 @@ export default function ServicesPage() {
                       fill
                       className="object-cover"
                       sizes="(max-width: 640px) 100vw, 1920px"
+                      quality={70}
                     />
                   </div>
                 </div>
@@ -104,6 +105,7 @@ export default function ServicesPage() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 640px) 100vw, 1920px"
+                quality={70}
               />
             </div>
           </div>
@@ -158,6 +160,7 @@ export default function ServicesPage() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 640px) 100vw, 33vw"
+                  quality={70}
                 />
               </div>
             ))}
@@ -280,6 +283,7 @@ export default function ServicesPage() {
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 50vw, 25vw"
+                    quality={70}
                   />
                 </div>
                 <p className="text-label text-foreground group-hover:text-accent transition-colors line-clamp-3">

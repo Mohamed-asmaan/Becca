@@ -78,7 +78,7 @@ function WorkProjectCard({ project, index, layout }: WorkProjectCardProps) {
           sizes={layout.sizes}
           priority={index < 2}
           loading={index < 2 ? "eager" : "lazy"}
-          decoding={index < 2 ? "sync" : "async"}
+          quality={70}
         />
         <div className="absolute inset-0 bg-bg/20" aria-hidden />
         <h3 className="absolute text-center text-white font-display text-2xl sm:text-4xl md:text-5xl font-bold uppercase tracking-tight px-6 sm:px-10 max-w-[20rem] sm:max-w-[70rem] line-clamp-4">

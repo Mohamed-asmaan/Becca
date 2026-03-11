@@ -54,6 +54,7 @@ export default function TeamMemberPage() {
                 className="object-cover"
                 sizes="(max-width: 640px) 100vw, 24rem"
                 priority
+                quality={70}
               />
             </div>
             <h1

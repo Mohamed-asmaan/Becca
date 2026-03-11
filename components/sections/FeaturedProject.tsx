@@ -15,8 +15,9 @@ export default function FeaturedProject() {
               alt="Parrish Co"
               fill
               className="object-cover"
-              sizes="(max-width: 640px) 100vw, 91rem"
+              sizes="(max-width: 640px) 100vw, 1456px"
               priority
+              quality={70}
             />
             <div className="absolute inset-0 flex items-center justify-center sm:justify-start sm:pl-8 md:pl-12">
               <h2 id="featured-project-heading" className="font-display uppercase text-3xl sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[14rem] font-bold">

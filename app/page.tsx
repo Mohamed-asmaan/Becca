@@ -1,12 +1,17 @@
 import dynamic from "next/dynamic";
 import { MainLayout } from "@/layouts";
-import { Hero } from "@/components/sections";
+import { About, Services, FeaturedProject, FeaturedWork } from "@/components/sections";
 import { getHomeContent } from "@/lib/data";
 
-const About = dynamic(() => import("@/components/sections/About").then((m) => m.default));
-const Services = dynamic(() => import("@/components/sections/Services").then((m) => m.default));
-const FeaturedProject = dynamic(() => import("@/components/sections/FeaturedProject").then((m) => m.default));
-const FeaturedWork = dynamic(() => import("@/components/sections/FeaturedWork").then((m) => m.default));
+const Hero = dynamic(() => import("@/components/sections/Hero").then((m) => m.default), {
+  loading: () => (
+    <div className="min-h-[100dvh] bg-bg flex items-center justify-center" aria-hidden>
+      <div className="w-32 h-8 bg-foreground/10 rounded animate-pulse" />
+    </div>
+  ),
+  ssr: true,
+});
+
 const Clients = dynamic(() => import("@/components/sections/Clients").then((m) => m.default));
 const News = dynamic(() => import("@/components/sections/News").then((m) => m.default));
 const CTA = dynamic(() => import("@/components/sections/CTA").then((m) => m.default));

@@ -23,7 +23,8 @@ function WorkCard({ title, client, image, href }: WorkCardProps) {
             alt=""
             fill
             className="object-cover group-hover:scale-[var(--image-zoom)] transition-transform duration-500"
-            sizes="(max-width: 640px) 100vw, 33vw"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 392px"
+            quality={70}
           />
         ) : (
           <div className="w-full h-full bg-foreground-inverse/20" />

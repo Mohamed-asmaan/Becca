@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { Container } from "@/components/ui";
@@ -39,7 +37,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 sm:gap-6 [column-fill:balance]">
+        <div className="columns-2 sm:columns-3 lg:columns-4 gap-4 sm:gap-6 [column-fill:auto] min-h-[28rem]">
           {IMAGES.map(({ src, alt, grayscale, h }, idx) => (
             <div
               key={idx}
@@ -56,7 +54,8 @@ export default function About() {
                   className="object-cover object-center"
                   loading={idx < 4 ? "eager" : "lazy"}
                   fetchPriority={idx === LCP_LAYOUT_INDEX ? "high" : undefined}
-                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                  sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 392px"
+                  quality={70}
                 />
               </div>
             </div>

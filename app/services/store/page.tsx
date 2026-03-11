@@ -43,6 +43,7 @@ export default function StorePage() {
                     fill
                     className="object-cover"
                     sizes="(max-width: 640px) 50vw, 25vw"
+                    quality={70}
                   />
                 </div>
                 <p className="text-label text-foreground group-hover:text-accent transition-colors duration-300 line-clamp-3">

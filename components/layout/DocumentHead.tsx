@@ -1,7 +1,6 @@
 /**
  * Document head links — preconnect, dns-prefetch
- * Optimizes LCP by preconnecting to image origin
- * Note: Font preload removed — add ruder_plakat_llregular.woff2 to public/fonts/ to re-enable
+ * Optimizes LCP by preconnecting to image/video origin
  */
 
 const PRELOAD_ORIGIN = "https://www.hellobecca.com";
