@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Growthmak — Web
 
-## Getting Started
+Modern marketing and communications website built with Next.js.
 
-First, run the development server:
+## Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Animations:** GSAP
+- **Deployment:** Vercel
+
+## Setup
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Font
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Place `ruder_plakat_llregular.woff2` in `public/fonts/` for the brand typeface. Otherwise Verdana is used. Obtain from [Lineto](https://lineto.com/typefaces/ruder-plakat/).
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+| Command | Description |
+|--------|--------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run content:seed` | Generate JSON from CSV (runs before build) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Content — CSV as Single Source of Truth
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Edit `content/content.csv` in Excel or Google Sheets. Add a row to add an item. No code changes.
 
-## Deploy on Vercel
+**Data flow:** `content/content.csv` → `npm run content:seed` → `content/*.json` → `lib/data/loader` → components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Edit `content/content.csv` — add rows for news, work, products, nav links, team, config, etc.
+2. Run `npm run content:seed` (or `npm run build` — seed runs first)
+3. Build as usual
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**CSV types:** `news`, `work`, `product`, `featured_work`, `service`, `client`, `nav_link`, `social_link`, `team_member`, `about_image`, `config`, `parrish_work`
+
+**Config keys** (type: config): `hero_headline_1`, `hero_headline_2`, `hero_tagline`, `cta_heading`, `cta_button`, `cta_href`, `newsletter_heading`, `newsletter_subline`, `newsletter_placeholder`, `about_hero_title`, `about_hero_image`
+
+## Project Structure
+
+```
+app/           # Routes, layouts, globals.css
+components/    # sections/, ui/, layout/, providers/
+content/       # content.csv (source) → *.json (generated)
+layouts/       # MainLayout
+lib/           # data/loader, utils, gsap
+public/
+```
+
+- **`lib/data/`** — Loader reads `content/*.json`; exposes getters for all UI.
+- **`components/sections/`** — Page sections (Hero, About, Services, News, Work, CTA, Footer, etc.).
+- **`components/ui/`** — Shared primitives (Button, Container, FilterSelect, NewsletterForm, PaginationDots).
+
+## Design System
+
+Tokens in `app/globals.css` (`@theme`). Use semantic classes:
+
+| Token | Usage |
+|-------|-------|
+| `bg-bg`, `bg-surface` | Backgrounds |
+| `text-accent` | Brand green (headlines, CTAs) |
+| `text-foreground`, `text-foreground-inverse` | Text on dark/light |
+| `font-display`, `font-body` | Typography |
+| `Container` | `variant="content"` \| `"narrow"` \| `"wide"` |
+
+## Scalability
+
+1. **New page** → Add route in `app/`, create content getter in `lib/data/loader.ts`, compose sections.
+2. **New section** → Add to `components/sections/`, accept data via props.
+3. **CMS integration** → Replace loader imports with API calls; types stay the same.
+
+## Performance
+
+- **Code splitting:** Below-fold sections (About, Services, etc.) dynamic-imported.
+- **Memoization:** Memo on list components (NewsCard, WorkCard, ServiceCard, Clients).
+- **Images:** Next.js `Image` with `sizes`, `priority` for above-fold, `loading="lazy"` for below-fold.
+- **GSAP:** `optimizePackageImports` in `next.config.ts` for tree-shaking.

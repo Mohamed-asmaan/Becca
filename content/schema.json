@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Content schema for News, Work, Services. Add items to the respective JSON files — no code changes needed.",
+  "news": {
+    "articles": [{ "title": "string", "date": "YYYY-MM-DD", "category": "string", "featuredIn": "string", "image": "url", "href": "string", "industry": "string?" }],
+    "filterCategories": [{ "value": "string", "label": "string" }],
+    "filterIndustries": [{ "value": "string", "label": "string" }]
+  },
+  "work": {
+    "projects": [{ "title": "string", "image": "url", "href": "string", "service": "string", "industry": "string" }],
+    "filterServices": [{ "value": "string", "label": "string" }],
+    "filterIndustries": [{ "value": "string", "label": "string" }]
+  },
+  "services": {
+    "whatWeDo": [{ "title": "string", "image": "url", "description": "string", "bullets": ["string"], "href": "string" }],
+    "products": [{ "title": "string", "image": "url", "href": "string", "external": "boolean" }]
+  }
+}

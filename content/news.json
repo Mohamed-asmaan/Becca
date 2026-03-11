@@ -1,0 +1,526 @@
+{
+  "hero": {
+    "title": "News"
+  },
+  "articles": [
+    {
+      "title": "Karol G and Casa Dragones Celebrate Culture and Craft",
+      "date": "11.11.25",
+      "category": "In The News",
+      "featuredIn": "Hypebeast",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/karol-g-and-casa-dragones-celebrate-culture-and-craft",
+      "featured": true,
+      "industry": "products"
+    },
+    {
+      "title": "Behind the Scenes With Le Bernardin's Sommelier Aldo Sohm",
+      "date": "11.06.25",
+      "category": "In The News",
+      "featuredIn": "Robb Report",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/behind-the-scenes-with-le-bernardins-sommelier-aldo-sohm",
+      "featured": true,
+      "industry": "restaurant"
+    },
+    {
+      "title": "The Wilkes balances nostalgia with modern touches",
+      "date": "11.05.25",
+      "category": "In The News",
+      "featuredIn": "Eater LA",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/the-wilkes-balances-nostalgia-with-modern-touches",
+      "featured": true,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Opera House opens with a menu of 12 cocktails named after Chinese operas",
+      "date": "10.30.25",
+      "category": "In The News",
+      "featuredIn": "Time Out New York",
+      "image": "https://www.hellobecca.com/wp-content/uploads/2025-10-13-Opera-House_0020-1-1.jpg",
+      "href": "/news/opera-house-opens-with-a-menu-of-12-cocktails-named-after-chinese-operas",
+      "featured": true,
+      "industry": "restaurant"
+    },
+    {
+      "title": "All Aboard the S.S. Carbone",
+      "date": "10.29.25",
+      "category": "In The News",
+      "featuredIn": "Vanity Fair",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Carbone-Riviera-at-Bellagio-Patio-Yacht-Credit-Douglas-Friedman.jpg",
+      "href": "/news/all-aboard-the-s-s-carbone",
+      "featured": true,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Five Rules to Eat Like a Chef on Vacation",
+      "date": "10.27.25",
+      "category": "In The News",
+      "featuredIn": "Five Rules for the Good Life",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/five-rules-to-eat-like-a-chef-on-vacation",
+      "featured": true,
+      "industry": "restaurant"
+    },
+    {
+      "title": "The Woman Behind Jean-Georges Vongerichten's Empire",
+      "date": "10.19.25",
+      "category": "In The News",
+      "featuredIn": "New York Times",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/the-woman-behind-jean-georges-vongerichtens-empire",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Sotheby's Bids Big on Fine Dining With Roman and Williams",
+      "date": "10.15.25",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/sothebys-bids-big-on-fine-dining-with-roman-and-williams",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Bam, 3 Stars!",
+      "date": "10.07.25",
+      "category": "In The News",
+      "featuredIn": "New York Times",
+      "image": "https://www.hellobecca.com/wp-content/uploads/ZSMITH-2024-10-10-04672-HiRespp-scaled.jpg",
+      "href": "/news/bam-3-stars",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Beyond Three Michelin Stars: William Bradley's Quest for Originality",
+      "date": "07.07.25",
+      "category": "In The News",
+      "featuredIn": "Condé Nast Traveler",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/beyond-three-michelin-stars-william-bradleys-quest-for-originality",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Enrique Olvera's Grub Street Diet",
+      "date": "06.13.25",
+      "category": "In The News",
+      "featuredIn": "Grub Street",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/enrique-olveras-grub-street-diet",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Ti Martin of Commander's Palace talks to the Restaurant Guys",
+      "date": "06.10.25",
+      "category": "In The News",
+      "featuredIn": "Restaurant Guys",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/ti-martin-of-commanders-palace-talks-to-the-restaurant-guys",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Baekjeong is back in a new Koreatown location",
+      "date": "06.04.25",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/baekjeong-is-back-in-a-new-koreatown-location",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "American Gonzo's Founders on the L.A. Restaurant Scene",
+      "date": "05.16.25",
+      "category": "In The News",
+      "featuredIn": "Eater LA",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/american-gonzos-founders-on-the-l-a-restaurant-scene",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "How NYC's Best French Chef Makes Salmon",
+      "date": "04.15.25",
+      "category": "In The News",
+      "featuredIn": "Food & Wine",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/how-nycs-best-french-chef-makes-salmon",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "How Indian Restaurants Became Hot in New York City",
+      "date": "04.08.25",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/how-indian-restaurants-became-hot-in-new-york-city",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "La Mercerie is one of the places to see and be seen in New York",
+      "date": "04.07.25",
+      "category": "In The News",
+      "featuredIn": "Condé Nast Traveler",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/la-mercerie-is-one-of-the-places-to-see-and-be-seen-in-new-york",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "In LA bread service is the main attraction",
+      "date": "03.24.25",
+      "category": "In The News",
+      "featuredIn": "Eater LA",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/in-la-bread-service-is-the-main-attraction",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "San Diego-Founded The Taco Stand Opens 15th Location",
+      "date": "03.24.25",
+      "category": "In The News",
+      "featuredIn": "Eater San Diego",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/san-diego-founded-the-taco-stand-opens-15th-location",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Addison Dives Deeper Into California Gastronomy",
+      "date": "03.04.25",
+      "category": "In The News",
+      "featuredIn": "San Diego Magazine",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/addison-dives-deeper-into-california-gastronomy",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "50 Best is Launching a North America Best Restaurants List",
+      "date": "03.03.25",
+      "category": "In The News",
+      "featuredIn": "50 Best",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Carbone-Riviera-at-Bellagio-Patio-Yacht-Credit-Douglas-Friedman.jpg",
+      "href": "/news/50-best-is-launching-a-north-america-best-restaurants-list",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Elle Escapes: New Orleans",
+      "date": "02.16.25",
+      "category": "Insights",
+      "featuredIn": "Elle",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/elle-escapes-new-orleans",
+      "featured": false,
+      "industry": "travel"
+    },
+    {
+      "title": "How Kathy + Ben Sidell created a family business",
+      "date": "01.23.25",
+      "category": "In The News",
+      "featuredIn": "Forbes",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/how-kathy-ben-sidell-created-a-family-business",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "The Garden & Gun Guide to New Orleans",
+      "date": "01.21.25",
+      "category": "In The News",
+      "featuredIn": "Garden & Gun",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/the-garden-gun-guide-to-new-orleans",
+      "featured": false,
+      "industry": "travel"
+    },
+    {
+      "title": "Inside Perseid Aaron Bludorn's Gulf Coast-inspired Bistro",
+      "date": "01.17.25",
+      "category": "In The News",
+      "featuredIn": "Houston Chronicle",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/inside-perseid-aaron-bludorns-gulf-coast-inspired-bistro",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "San Miguel de Allende is home to a bold young crowd of talent",
+      "date": "01.01.25",
+      "category": "Insights",
+      "featuredIn": "Condé Nast Traveler",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/san-miguel-de-allende-is-home-to-a-bold-young-crowd-of-talent",
+      "featured": false,
+      "industry": "travel"
+    },
+    {
+      "title": "The Ultimate Holiday Caviar Guide",
+      "date": "12.23.24",
+      "category": "Insights",
+      "featuredIn": "Robb Report",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Carbone-Riviera-at-Bellagio-Patio-Yacht-Credit-Douglas-Friedman.jpg",
+      "href": "/news/the-ultimate-holiday-caviar-guide",
+      "featured": false,
+      "industry": "products"
+    },
+    {
+      "title": "Herb & Sea showcases seafood caught by San Diego fishermen",
+      "date": "12.12.24",
+      "category": "In The News",
+      "featuredIn": "Eater San Diego",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/herb-sea-showcases-seafood-caught-by-san-diego-fishermen",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Bangkok Supper Club wins the 2024 Exceptional Cocktails Award",
+      "date": "12.09.24",
+      "category": "In The News",
+      "featuredIn": "New York Times",
+      "image": "https://www.hellobecca.com/wp-content/uploads/2025-10-13-Opera-House_0020-1-1.jpg",
+      "href": "/news/bangkok-supper-clubs-chacha-singsuwan-wins-the-new-york-2024-exceptional-cocktails-award",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "What I've Learned: Emeril Lagasse",
+      "date": "12.04.24",
+      "category": "In The News",
+      "featuredIn": "Garden & Gun",
+      "image": "https://www.hellobecca.com/wp-content/uploads/ZSMITH-2024-10-10-04672-HiRespp-scaled.jpg",
+      "href": "/news/what-ive-learned-emeril-lagasse",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "American Beauty opens at The Grove in LA",
+      "date": "12.01.24",
+      "category": "In The News",
+      "featuredIn": "Eater LA",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/american-beauty-opens-at-the-grove-in-la",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Commander's Palace introduces the Commander's Collection",
+      "date": "11.23.24",
+      "category": "In The News",
+      "featuredIn": "Food & Wine",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/commanders-palace-introduces-the-commanders-collection",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "How Rockhouse became a cornerstone of Jamaican hospitality",
+      "date": "11.19.24",
+      "category": "In The News",
+      "featuredIn": "Travel + Leisure",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/how-rockhouse-became-a-cornerstone-of-jamaican-hospitality",
+      "featured": false,
+      "industry": "travel"
+    },
+    {
+      "title": "Fontainebleau's exclusive experiences for Las Vegas Grand Prix 2024",
+      "date": "11.07.24",
+      "category": "In The News",
+      "featuredIn": "Robb Report",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Carbone-Riviera-at-Bellagio-Patio-Yacht-Credit-Douglas-Friedman.jpg",
+      "href": "/news/fontainebleaus-exclusive-experiences-for-las-vegas-grand-prix-2024",
+      "featured": false,
+      "industry": "hotels-resorts"
+    },
+    {
+      "title": "Casa Dragones' 12-seat tequila bar might be the coolest in Mexico",
+      "date": "11.03.24",
+      "category": "In The News",
+      "featuredIn": "Condé Nast Traveler",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/casa-dragones-12-seat-tequila-bar-might-be-the-coolest-in-mexico",
+      "featured": false,
+      "industry": "products"
+    },
+    {
+      "title": "New Orleans' 34 is a career first for Emeril Lagasse",
+      "date": "10.23.24",
+      "category": "In The News",
+      "featuredIn": "New York Times",
+      "image": "https://www.hellobecca.com/wp-content/uploads/ZSMITH-2024-10-10-04672-HiRespp-scaled.jpg",
+      "href": "/news/new-orleans-34-is-a-career-first-for-emeril-lagasse",
+      "featured": false,
+      "industry": "travel"
+    },
+    {
+      "title": "Meet Soso's",
+      "date": "10.22.24",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/meet-sosos",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Veteran presence: Industry leader Jee Park joins Becca",
+      "date": "09.24.24",
+      "category": "Press releases",
+      "featuredIn": "Becca",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/veteran-presence-industry-leader-jee-park-joins-becca-2",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Din Tai Fung heads East",
+      "date": "09.15.24",
+      "category": "In The News",
+      "featuredIn": "The New Yorker",
+      "image": "https://www.hellobecca.com/wp-content/uploads/DUMBO_PDR_FRONTFACE_RESIZED_MEDRES-scaled.jpg",
+      "href": "/news/din-tai-fung-new-yorker",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "The 21 Best Hotels in New Orleans in 2024",
+      "date": "08.16.24",
+      "category": "In The News",
+      "featuredIn": "Condé Nast Traveler",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/the-chloe-the-celestine-cnt",
+      "featured": false,
+      "industry": "hotels-resorts"
+    },
+    {
+      "title": "Tourists revives the classic American cabin for modern day",
+      "date": "08.01.24",
+      "category": "In The News",
+      "featuredIn": "Financial Times",
+      "image": "https://www.hellobecca.com/wp-content/uploads/@carolinakormanphoto-Image-13-29-The-Wilkes.jpg",
+      "href": "/news/tourists-financial-times-aug-1st",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Kisa brings the Korean taxi driver diner to NYC",
+      "date": "07.22.24",
+      "category": "In The News",
+      "featuredIn": "Michelin Guide",
+      "image": "https://www.hellobecca.com/wp-content/uploads/200-copas-by-casa-dragones-press-4.jpg",
+      "href": "/news/kisa-michelin-guide",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Inside Le Coq a San Diego steakhouse with a heavy French accent",
+      "date": "06.21.24",
+      "category": "In The News",
+      "featuredIn": "Eater San Diego",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/inside-le-coq-a-san-diego-steakhouse-with-a-heavy-french-accent",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Chef Enrique Olvera opens a Taqueria in Brooklyn",
+      "date": "05.01.24",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/esse-taco-casamata-eate",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "How chef Eric Ripert runs one of the world's best restaurants",
+      "date": "04.01.24",
+      "category": "In The News",
+      "featuredIn": "Eater",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/le-bernardin-eric-ripert-eater",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "The culinary philosophy of Elena Reygades",
+      "date": "03.20.24",
+      "category": "In The News",
+      "featuredIn": "Cultured",
+      "image": "https://www.hellobecca.com/wp-content/uploads/20230405chef_tara0074.jpg",
+      "href": "/news/elena-reygades-cultured",
+      "featured": false,
+      "industry": "restaurant"
+    },
+    {
+      "title": "Becca + Prosek",
+      "date": "01.25.24",
+      "category": "Press releases",
+      "featuredIn": "Becca",
+      "image": "https://www.hellobecca.com/wp-content/uploads/LeB1010_10-1.jpg",
+      "href": "/news/becca-prosek",
+      "featured": false,
+      "industry": "restaurant"
+    }
+  ],
+  "filterCategories": [
+    {
+      "value": "",
+      "label": "category"
+    },
+    {
+      "value": "press-releases",
+      "label": "Press releases"
+    },
+    {
+      "value": "in-the-news",
+      "label": "In The News"
+    },
+    {
+      "value": "insights",
+      "label": "Insights"
+    }
+  ],
+  "filterIndustries": [
+    {
+      "value": "",
+      "label": "industry"
+    },
+    {
+      "value": "design",
+      "label": "Design"
+    },
+    {
+      "value": "hotels-resorts",
+      "label": "Hotels + Resorts"
+    },
+    {
+      "value": "products",
+      "label": "Products"
+    },
+    {
+      "value": "restaurant",
+      "label": "Restaurant"
+    },
+    {
+      "value": "travel",
+      "label": "Travel"
+    }
+  ],
+  "newsletter": {
+    "heading": "Stay Ahead of the Curve",
+    "subheading": "Subscribe to our newsletter to get the scoop.",
+    "placeholder": "Enter your email"
+  }
+}

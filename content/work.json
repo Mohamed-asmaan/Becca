@@ -1,0 +1,223 @@
+{
+  "hero": {
+    "title": "We Work Wonders"
+  },
+  "projects": [
+    {
+      "title": "Tishman Speyer, Rockefeller Center",
+      "image": "https://picsum.photos/seed/1/1920/1080",
+      "href": "/work/tishman-speyer-rockefeller-center",
+      "service": "communications",
+      "industry": "real-estate"
+    },
+    {
+      "title": "Kisa",
+      "image": "https://picsum.photos/seed/2/727/829",
+      "href": "/work/kisa",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "The Odeon",
+      "image": "https://picsum.photos/seed/3/877/583",
+      "href": "/work/the-odeon",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "La Double J",
+      "image": "https://picsum.photos/seed/4/1328/898",
+      "href": "/work/la-double-j",
+      "service": "content",
+      "industry": "fashion"
+    },
+    {
+      "title": "Le Bernardin",
+      "image": "https://picsum.photos/seed/5/877/800",
+      "href": "/work/le-bernardin",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "The River Cafe",
+      "image": "https://picsum.photos/seed/6/727/800",
+      "href": "/work/the-river-cafe",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Ralph Lauren Hospitality",
+      "image": "https://picsum.photos/seed/7/1328/898",
+      "href": "/work/ralph-lauren-hospitality",
+      "service": "experiences",
+      "industry": "hotels-resorts"
+    },
+    {
+      "title": "Din Tai Fung",
+      "image": "https://picsum.photos/seed/8/727/829",
+      "href": "/work/din-tai-fung",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Côte",
+      "image": "https://picsum.photos/seed/9/877/583",
+      "href": "/work/cote",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Mustique",
+      "image": "https://picsum.photos/seed/10/1328/898",
+      "href": "/work/mustique",
+      "service": "experiences",
+      "industry": "travel"
+    },
+    {
+      "title": "La Mercerie",
+      "image": "https://picsum.photos/seed/11/727/800",
+      "href": "/work/la-mercerie",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Roman and Williams x AD dinner",
+      "image": "https://picsum.photos/seed/12/877/800",
+      "href": "/work/roman-and-williams-ad-dinner",
+      "service": "experiences",
+      "industry": "design"
+    },
+    {
+      "title": "Tequila Casa Dragones",
+      "image": "https://picsum.photos/seed/13/727/829",
+      "href": "/work/tequila-casa-dragones",
+      "service": "content",
+      "industry": "products"
+    },
+    {
+      "title": "The Chef Assembly LA",
+      "image": "https://picsum.photos/seed/14/877/583",
+      "href": "/work/the-chef-conference-la",
+      "service": "experiences",
+      "industry": "conferences"
+    },
+    {
+      "title": "The Grey",
+      "image": "https://picsum.photos/seed/15/1328/898",
+      "href": "/work/the-grey",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "The Grey Turns 10",
+      "image": "https://picsum.photos/seed/16/1920/1080",
+      "href": "/work/the-grey-turns-10",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Netflix",
+      "image": "https://picsum.photos/seed/17/727/829",
+      "href": "/work/netflix",
+      "service": "content",
+      "industry": "entertainment"
+    },
+    {
+      "title": "Cosme's 10th Anniversary",
+      "image": "https://picsum.photos/seed/18/877/583",
+      "href": "/work/cosme-10th-anniversary",
+      "service": "communications",
+      "industry": "restaurant"
+    },
+    {
+      "title": "Rockhouse",
+      "image": "https://picsum.photos/seed/19/727/800",
+      "href": "/work/rockhouse",
+      "service": "parrish-co",
+      "industry": "hotels-resorts"
+    },
+    {
+      "title": "Fontainebleau Las Vegas",
+      "image": "https://picsum.photos/seed/20/877/800",
+      "href": "/work/fontainebleau-las-vegas",
+      "service": "experiences",
+      "industry": "hotels-resorts"
+    },
+    {
+      "title": "Ten to One Rum",
+      "image": "https://picsum.photos/seed/21/727/829",
+      "href": "/work/ten-to-one-rum",
+      "service": "content",
+      "industry": "products"
+    }
+  ],
+  "filterServices": [
+    {
+      "value": "",
+      "label": "service"
+    },
+    {
+      "value": "communications",
+      "label": "Communications"
+    },
+    {
+      "value": "content",
+      "label": "Content"
+    },
+    {
+      "value": "experiences",
+      "label": "Experiences"
+    },
+    {
+      "value": "parrish-co",
+      "label": "Parrish Co"
+    }
+  ],
+  "filterIndustries": [
+    {
+      "value": "",
+      "label": "industry"
+    },
+    {
+      "value": "conferences",
+      "label": "Conferences"
+    },
+    {
+      "value": "design",
+      "label": "Design"
+    },
+    {
+      "value": "entertainment",
+      "label": "Entertainment"
+    },
+    {
+      "value": "fashion",
+      "label": "Fashion"
+    },
+    {
+      "value": "hotels-resorts",
+      "label": "Hotels + Resorts"
+    },
+    {
+      "value": "products",
+      "label": "Products"
+    },
+    {
+      "value": "real-estate",
+      "label": "Real Estate"
+    },
+    {
+      "value": "restaurant",
+      "label": "Restaurant"
+    },
+    {
+      "value": "travel",
+      "label": "Travel"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to begin?",
+    "buttonLabel": "Let's talk",
+    "buttonHref": "/connect"
+  }
+}

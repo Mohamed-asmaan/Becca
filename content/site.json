@@ -1,0 +1,247 @@
+{
+  "navLinks": [
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Work",
+      "href": "/work"
+    },
+    {
+      "label": "News",
+      "href": "/news"
+    },
+    {
+      "label": "Parrish Co",
+      "href": "/parrish-co"
+    },
+    {
+      "label": "Let's Talk",
+      "href": "/connect"
+    }
+  ],
+  "footerLinks": [
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Work",
+      "href": "/work"
+    },
+    {
+      "label": "News",
+      "href": "/news"
+    },
+    {
+      "label": "Parrish Co",
+      "href": "/parrish-co"
+    },
+    {
+      "label": "Let's Talk",
+      "href": "/connect"
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/beccapr"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/xbecca/"
+    },
+    {
+      "label": "TikTok",
+      "href": "https://www.tiktok.com/@teamxbecca"
+    }
+  ],
+  "featuredWork": [
+    {
+      "title": "Tishman Speyer Rockefeller Center",
+      "client": "Tishman Speyer Rockefeller Center",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Home_SectionF_9.jpg",
+      "href": "/work/tishman-speyer-rockefeller-center"
+    },
+    {
+      "title": "Ralph Lauren Hospitality",
+      "client": "Ralph Lauren Hospitality",
+      "image": "https://www.hellobecca.com/wp-content/uploads/TPBThe-Polo-Bar-Dining-Room-2_1.jpg",
+      "href": "/work/ralph-lauren-hospitality"
+    },
+    {
+      "title": "Mustique",
+      "client": "Mustique",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Home_SectionF_10.jpg",
+      "href": "/work/mustique"
+    },
+    {
+      "title": "Tequila Casa Dragones",
+      "client": "Tequila Casa Dragones",
+      "image": "https://www.hellobecca.com/wp-content/uploads/casa-dragones-joven-personalized-fathers-day-2-scaled.jpg",
+      "href": "/work/tequila-casa-dragones"
+    },
+    {
+      "title": "Rockhouse",
+      "client": "Rockhouse",
+      "image": "https://www.hellobecca.com/wp-content/uploads/RH_dji00734_23901349010_o_3-scaled.jpg",
+      "href": "/work/rockhouse"
+    },
+    {
+      "title": "The Grey",
+      "client": "The Grey",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Home_SectionF_6.jpg",
+      "href": "/work/the-grey"
+    }
+  ],
+  "services": [],
+  "clients": [
+    "50 Best",
+    "abc kitchens",
+    "Addison",
+    "American Beauty",
+    "Animae",
+    "Auberge Resorts",
+    "Bludorn",
+    "Brooklyn Brewery",
+    "C as in Charlie",
+    "Cafe Cluny",
+    "Casa Dragones",
+    "Clark's Oyster Bar",
+    "Commander's Palace",
+    "Cosme",
+    "COTE",
+    "Crystal Hot Sauce",
+    "Din Tai Fung",
+    "Eleven Madison Park",
+    "Emeril's",
+    "Estela",
+    "Fauchon",
+    "Four Seasons",
+    "Gagosian",
+    "Grand Banks",
+    "Health-Ade Kombucha",
+    "JKS Restaurants",
+    "Jupiter",
+    "Le Bernardin",
+    "Le Rock",
+    "Masa",
+    "MGM Resorts",
+    "Miami Design District",
+    "MML Hospitality",
+    "NARO",
+    "Ole & Steen",
+    "Pizzana",
+    "Rethink Food",
+    "Roc Nation",
+    "Rockwell Group",
+    "Roman and Williams",
+    "Rosetta",
+    "Salt & Straw",
+    "Sant Ambroeus",
+    "Sugarfish",
+    "The Chef Assembly",
+    "The Chloe",
+    "The Grey",
+    "The Standard Hotels",
+    "Wegmans",
+    "West Elm"
+  ],
+  "teamMembers": [
+    {
+      "name": "Becca Parrish",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_becca-parrish.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_becca-parrish.jpg"
+    },
+    {
+      "name": "Pei-Ru Keh",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Pei-ru-KeH.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Pei-ru-KeH.jpg"
+    },
+    {
+      "name": "Lauren Fonda",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Lauren-Fonda.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Lauren-Fonda.jpg"
+    },
+    {
+      "name": "Jenny Macksamie",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Jenny-Macksamie.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Jenny-Macksamie.jpg"
+    },
+    {
+      "name": "Tanya Layzell-Payne",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Tanya-Layzell-Payne.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Tanya-Layzell-Payne.jpg"
+    },
+    {
+      "name": "Elise Merghart",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Elise-Merghart.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Elise-Merghart.jpg"
+    },
+    {
+      "name": "Jee Won Park",
+      "title": "",
+      "image": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Jee-Won-Park.jpg",
+      "href": "https://www.hellobecca.com/wp-content/uploads/About_SectionF_Jee-Won-Park.jpg"
+    }
+  ],
+  "aboutImages": [
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/97A9545.jpg",
+      "alt": "Becca team and hospitality settings",
+      "grayscale": false
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/RC_DSC_9376_1-1-scaled.jpg",
+      "alt": "Hospitality venue",
+      "grayscale": false
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/Home_SectionC_Image3.jpg",
+      "alt": "Hospitality setting",
+      "grayscale": false
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/About_SectionC_1-scaled.jpg",
+      "alt": "Hospitality experience",
+      "grayscale": true
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/Home_SectionC_Image4_.jpg",
+      "alt": "Becca client work",
+      "grayscale": false
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/Home_SectionC_Image7-V3.jpg",
+      "alt": "Restaurant and venue",
+      "grayscale": true
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/Home_SectionC_Image6.jpg",
+      "alt": "Becca hospitality",
+      "grayscale": true
+    },
+    {
+      "src": "https://www.hellobecca.com/wp-content/uploads/Home_SectionC_Image8.jpg",
+      "alt": "Hospitality brand",
+      "grayscale": false
+    }
+  ],
+  "config": {},
+  "parrishWork": []
+}

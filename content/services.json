@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Setting the Standard"
+  },
+  "whatWeDo": [
+    {
+      "title": "Communications",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Home_SectionD_1-1.jpg",
+      "description": "Our relationships with trusted media and tastemakers reflect our understanding of the ever-evolving channels of influence.",
+      "bullets": [
+        "Brand messaging + storytelling",
+        "Network development",
+        "Media + tastemaker engagement",
+        "Reputation management",
+        "Collaborations + partnerships"
+      ],
+      "href": "/work?_service=communications"
+    },
+    {
+      "title": "Experiences",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Becca-Experiences.jpg",
+      "description": "We excel at bringing the right creative and brand partners together to create unforgettable moments and experiences.",
+      "bullets": [
+        "Concept development",
+        "Creative direction + design",
+        "Programming + experience flow",
+        "Event production + logistics",
+        "Entertainment"
+      ],
+      "href": "/work?_service=experiences"
+    },
+    {
+      "title": "Content",
+      "image": "https://www.hellobecca.com/wp-content/uploads/Home_SectionD_3-1.jpg",
+      "description": "We help clients translate what they do into captivating online experiences.",
+      "bullets": [
+        "Brand positioning + strategy",
+        "Content planning + ideation",
+        "Content creation",
+        "Social media + community management",
+        "Analytics + reporting"
+      ],
+      "href": "/work?_service=content"
+    }
+  ],
+  "parrish": {
+    "title": "parrish co",
+    "image": "https://www.hellobecca.com/wp-content/uploads/Becca_Work_Polo-Bar.jpg",
+    "description": "A strategic advisory empowering forward-thinking C-suite leaders to build and sustain the 21st century's most influential brands. We are early-stage partners, advising our clients on all aspects of their business, from competitive analysis to critical reception.",
+    "href": "/work?_service=parrish-co"
+  },
+  "work": {
+    "heading": "our Work",
+    "intro": "Whether your brand is looking to scale, participate in the cultural conversation or plan the event of the season, we're ready for you. See how we helped these brands reach new heights.",
+    "images": [
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-1.jpg",
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-2.jpg",
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-3.jpg",
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-4.jpg",
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-5.jpg",
+      "https://www.hellobecca.com/wp-content/uploads/Becca-Services-Work-6.jpg"
+    ],
+    "ctaHref": "/work",
+    "ctaLabel": "view ALL work"
+  },
+  "marketing": {
+    "heading": "marketing explained",
+    "intro": "We all use the term marketing. A lot. But what does it actually mean? How does it work? Press play and find out.",
+    "thumbnail": "https://www.hellobecca.com/wp-content/uploads/what-is-marking-thumbnail-scaled.jpg",
+    "videoDesktop": "https://www.hellobecca.com/wp-content/uploads/what-is-marketing-desktop.mp4",
+    "videoMobile": "https://www.hellobecca.com/wp-content/uploads/What-is-marketing-Mobile.mp4"
+  },
+  "store": {
+    "heading": "our Store",
+    "intro": "We're proud to partner with the best of the best. Check out some of our clients' goods and treat yourself to some inspiring (and often tasty) products.",
+    "ctaLabel": "get the goods",
+    "ctaHref": "/services/store",
+    "products": [
+      {
+        "title": "La Poissonnière pan by Eric Ripert",
+        "image": "",
+        "href": "",
+        "external": false
+      },
+      {
+        "title": "Seafood Simple by Eric Ripert",
+        "image": "",
+        "href": "",
+        "external": false
+      },
+      {
+        "title": "Ten to One Rum",
+        "image": "",
+        "href": "",
+        "external": false
+      }
+    ]
+  }
+}
