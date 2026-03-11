@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Reads content/content.csv (or content/items.csv) and generates content/*.json.
+ * Reads content/content.csv and generates content/*.json.
  * CSV is the single source of truth. Add a row to add an item.
  *
  * Types: news, work, product, featured_work, service, client, nav_link, social_link,
@@ -17,9 +17,7 @@ const contentDir = join(root, "content");
 
 if (!existsSync(contentDir)) mkdirSync(contentDir, { recursive: true });
 
-const csvPath = existsSync(join(contentDir, "content.csv"))
-  ? join(contentDir, "content.csv")
-  : join(contentDir, "items.csv");
+const csvPath = join(contentDir, "content.csv");
 
 if (!existsSync(csvPath)) {
   console.log("content/content.csv not found — skipping seed (using existing JSON)");

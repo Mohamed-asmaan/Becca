@@ -53,13 +53,13 @@ app/           # Routes, layouts, globals.css
 components/    # sections/, ui/, layout/, providers/
 content/       # content.csv (source) → *.json (generated)
 layouts/       # MainLayout
-lib/           # data/loader, utils, gsap
+lib/           # data/loader, utils
 public/
 ```
 
 - **`lib/data/`** — Loader reads `content/*.json`; exposes getters for all UI.
 - **`components/sections/`** — Page sections (Hero, About, Services, News, Work, CTA, Footer, etc.).
-- **`components/ui/`** — Shared primitives (Button, Container, FilterSelect, NewsletterForm, PaginationDots).
+- **`components/ui/`** — Shared primitives (Button, Container, FilterSelect, NewsletterForm).
 
 ## Design System
 
