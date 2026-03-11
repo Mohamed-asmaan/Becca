@@ -171,12 +171,12 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
     <section
       id="home-page-section-c"
       ref={sectionRef}
-      className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-bg z-[5]"
+      className="relative w-full min-w-full min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-bg z-[5]"
       aria-labelledby="hero-heading"
     >
       <div
         ref={stickyRef}
-        className="relative z-20 min-h-[100dvh] min-h-[100vh] flex flex-col justify-center overflow-hidden"
+        className="relative z-20 w-full min-w-full min-h-[100dvh] flex flex-col justify-center overflow-hidden"
       >
         {/* Video — absolute inset-0, no layout impact; scale animation is transform-only */}
         <div
