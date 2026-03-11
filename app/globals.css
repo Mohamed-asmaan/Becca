@@ -98,6 +98,11 @@ html.hero-entrance-lock body {
   display: flex;
   align-items: center;
   justify-content: center;
+  contain: layout;
+}
+
+#home-page-section-c .font-display {
+  text-size-adjust: 100%;
 }
 
 .hero-video-container {

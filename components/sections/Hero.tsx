@@ -171,7 +171,7 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
     <section
       id="home-page-section-c"
       ref={sectionRef}
-      className="relative w-full min-w-full min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-bg z-[5]"
+      className="relative w-full min-w-full min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-bg z-[5] [contain:layout]"
       aria-labelledby="hero-heading"
     >
       <div
@@ -218,19 +218,21 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
         </div>
 
         {/* Content block: Hospitality | Reimagined — video grows and pushes text out */}
-        <Container className="relative z-10 flex flex-col items-center overflow-visible">
+        <Container className="relative z-10 flex flex-col items-center overflow-visible min-w-0">
           <div className="flex flex-col items-center w-full">
             <h1
               ref={hospitalityRef}
               id="hero-heading"
-              className="font-display text-4xl min-[480px]:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-accent text-center"
+              className="font-display text-4xl min-[480px]:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-accent text-center opacity-0"
+              style={{ transform: "translateY(40px)" }}
             >
               Hospitality
             </h1>
 
             <h1
               ref={reimaginedRef}
-              className="font-display text-4xl min-[480px]:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-accent text-center -mt-1"
+              className="font-display text-4xl min-[480px]:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold uppercase tracking-tight text-accent text-center -mt-1 opacity-0"
+              style={{ transform: "translateY(30px)" }}
             >
               Reimagined
             </h1>
@@ -238,7 +240,8 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
 
           <p
             ref={taglineRef}
-            className="mt-4 sm:mt-10 md:mt-14 mx-auto max-w-[70ch] px-4 sm:px-0 text-center text-base sm:text-body-lg text-foreground"
+            className="mt-4 sm:mt-10 md:mt-14 mx-auto max-w-[70ch] px-4 sm:px-0 text-center text-base sm:text-body-lg text-foreground opacity-0"
+            style={{ transform: "translateY(20px)" }}
           >
             {tagline}
           </p>
@@ -246,7 +249,8 @@ export default function Hero({ headline1 = "Hospitality", headline2 = "Reimagine
 
         <div
           ref={scrollHintRef}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 md:hidden"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 md:hidden opacity-0"
+          style={{ transform: "translate(-50%, 20px)" }}
         >
           <svg width="18" height="11" viewBox="0 0 18 11" fill="none">
             <path

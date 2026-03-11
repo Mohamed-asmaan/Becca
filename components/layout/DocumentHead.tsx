@@ -1,6 +1,5 @@
 /**
- * Document head — preconnect to LCP origin only.
- * Single preconnect to image/video host; dns-prefetch removed (redundant).
+ * Document head — preconnect to LCP origin.
  */
 
 const LCP_ORIGIN = "https://www.hellobecca.com";
